@@ -1,0 +1,109 @@
+body {
+    background: #151313 url('../img/bgpat.png');
+    width: 100%;
+}
+.header {
+    background: #000000;
+    text-align: center;
+    width: 100%;
+}
+.logo {
+    max-width: 100%;
+    width: 92.5%;
+    margin-top: 0.7em;
+    /* margin-bottom: 0.7em; */
+}
+.logowrap {
+    width: 100%;
+}
+.navwrap {
+    width: 100%;
+}
+.nav {
+    width: 100%;
+    text-align: left;
+}
+.navlink {
+    margin-right: 0.35em;
+    border-right: 0.0625em solid #d4c355;
+    max-width: 5.625em;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #ec008c;
+    font-family: 'Calibri','Helvetica';
+}
+.navlink:last-child {
+    border-right: 0;
+}
+.content {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.35em;
+}
+.menu {
+    width: 89%;
+    max-width: 100%;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+}
+.footer-container {
+    height:4em;
+    width: 100%;
+    border-collapse:collapse;
+    display : table;
+}
+.footer {
+    background: #000000;
+    display : table-row;
+    vertical-align : bottom;
+    height : 4em;
+    width: 100%;
+    text-align: right;
+}
+.copyright {
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, Calibri;
+    font-size: 1em;
+    margin-top: 0.35em;
+    vertical-align: bottom;
+}
+    
+.social {
+    max-width: 2em;
+    margin: 0.175em;
+    text-align: right;
+}
+
+    /************Let the Media Queries Begin!*************/
+
+    /* Target Tablet */
+@media (min-width: 600px) {
+.menu {
+    width: 44.5%;
+    margin-left: 2.75%;
+    margin-right: 2.75%;
+    float: left;
+}
+.social {
+    max-width: 3em;
+}
+}
+
+    /* Target Desktop */
+@media (min-width: 960px) {
+.logo {
+    max-width: 48.375em;
+}
+.reserve {
+    max-width: 9.375em;
+}
+.menu {
+    width: 29.6666%;
+    margin-left: 1.83333332%;
+    margin-right: 1.83333332%;
+}
+.social {
+    max-width: 4em;
+}
+}

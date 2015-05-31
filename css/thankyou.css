@@ -1,0 +1,24 @@
+.container { 
+    max-width: 100%; 
+    min-width: 25%; 
+    border-width: 3px; 
+    border-color: #000000; 
+    border-radius: 4px; 
+    border-style: solid; 
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 5.5%;
+    background-color: #121212;
+    padding: 1.3em;
+}
+.thankyou {
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, Calibri;
+    font-size: 1em;
+    margin-top: 0.35em;
+    vertical-align: bottom;
+}
+.back {
+    color: #ffffff;
+}

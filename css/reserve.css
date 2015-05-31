@@ -1,0 +1,90 @@
+ .form{ 
+    max-width: 100%; 
+    min-width: 25%; 
+    border-width: 3px; 
+    border-color: #000000; 
+    border-radius: 4px; 
+    border-style: solid; 
+    color: #FFFFFF; 
+    font-size: 16px; 
+    margin: 5.5%; 
+    background-color: #121212; 
+    padding: 20px; 
+} 
+.content{ 
+    margin: 0px; 
+} 
+.form label{ 
+    color: #FFFFFF; 
+    font-size: 14px; 
+    display: block; 
+} 
+.form input[type=radio], input[type=checkbox]{ 
+    margin: 10px; 
+    width: 13px; 
+} 
+.form div{ 
+    display: block; 
+} 
+.form input, form textarea, form select{ 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #2E2E2E; 
+    border-radius: 6px; 
+    padding: 3px; 
+    width: 100%; 
+} 
+.form, .form h1, .form h2{ 
+    font-family: 'Verdana'; 
+} 
+.form h1{ 
+    font-size: 39px; 
+    color: #D4C355; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 10px; 
+    border-bottom-color: #CCCCCC; 
+    border-bottom-width: 0px; 
+    border-radius: 0px; 
+    background-color: #121212; 
+} 
+.intro{ 
+    margin-bottom: 10px; 
+} 
+.clear{ 
+    clear: both; 
+} 
+.form textarea{ 
+    height: 71px; 
+    width: 100%; 
+} 
+.form input[type=submit]{ 
+    width: 100%; 
+    background-color: #2E2E2E; 
+    color: #D4D4D4; 
+} 
+.field{ 
+    margin-bottom: 5px; 
+} 
+
+
+    /************Let the Media Queries Begin!*************/
+
+    /* Target Tablet */
+@media (min-width: 600px) {
+.form{ 
+    max-width: 100%; 
+    min-width: 25%; 
+    margin: 5.5%; 
+} 
+}
+   /* Target Desktop */
+@media (min-width: 960px) {
+.form{ 
+    max-width: 50%; 
+    min-width: 25%; 
+    margin: 5.5%; 
+    margin-left: 25%;
+    margin-right: 2.75%;
+} 
+}
