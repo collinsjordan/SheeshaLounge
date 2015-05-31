@@ -1,0 +1,39 @@
+.hometext {
+    color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, Calibri;
+    font-size: 1em;
+    margin-top: 2em;
+    vertical-align: bottom;
+}
+.hometext h3 {
+    font-size: 1.2em
+}
+.hometext span {
+    color: #d4c355;
+}
+.herowrap {
+    max-width: 90%;
+    margin: 5%;
+    background: #202020;
+    padding: 0.3125em;
+}
+.hero {
+    max-width: 100%;
+}
+@media (min-width: 600px) {
+    .hometext p {
+        font-size: 1.5em;
+    }
+    .hometext h3 {
+    font-size: 2em;
+}
+}
+@media (min-width: 960px) {
+    .hometext p {
+        font-size: 2em;
+    }
+    .hometext h3 {
+    font-size: 2.5em;
+}
+}
