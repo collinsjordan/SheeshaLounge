@@ -16,25 +16,6 @@ body {
 .logowrap {
     width: 100%;
 }
-.navwrap {
-    width: 100%;
-}
-.nav {
-    width: 100%;
-    text-align: left;
-}
-.navlink {
-    margin-right: 0.35em;
-    border-right: 0.0625em solid #d4c355;
-    max-width: 5.625em;
-    text-decoration: none;
-    font-size: 1.3em;
-    color: #ec008c;
-    font-family: 'Calibri','Helvetica';
-}
-.navlink:last-child {
-    border-right: 0;
-}
 .content {
     width: 100%;
     text-align: center;
@@ -93,7 +74,7 @@ body {
     /* Target Desktop */
 @media (min-width: 960px) {
 .logo {
-    max-width: 48.375em;
+    max-width: 43em;
 }
 .reserve {
     max-width: 9.375em;

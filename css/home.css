@@ -3,8 +3,7 @@
     text-align: center;
     font-family: Helvetica, Calibri;
     font-size: 1em;
-    margin-top: 2em;
-    vertical-align: bottom;
+    margin-top: 1em;
 }
 .hometext h3 {
     font-size: 1.2em
@@ -20,7 +19,12 @@
 }
 .hero {
     max-width: 100%;
+    margin-bottom: 0.3125em;
 }
+.last {
+    margin-bottom: 0;
+}
+    
 @media (min-width: 600px) {
     .hometext p {
         font-size: 1.5em;
@@ -28,6 +32,22 @@
     .hometext h3 {
     font-size: 2em;
 }
+    .herowrap {
+        margin: 0;
+        margin-top: 1em;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    .hero {
+        max-width: 30%;
+        margin-left: 1%;
+        margin-bottom: 0;
+}
+    .first {
+        margin-left: 0;
+    }
 }
 @media (min-width: 960px) {
     .hometext p {
