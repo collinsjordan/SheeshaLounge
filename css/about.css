@@ -1,0 +1,39 @@
+.about {
+    color: #ffffff;
+    text-align: left;
+    font-family: Helvetica, Calibri;
+    font-size: 1em;
+    margin-top: 1em;
+    max-width: 90%;
+    margin: 5%;
+    background: #202020;
+    padding: 0.3125em;
+}
+.about h3 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+}
+.about span {
+    color: #d4c355;
+}
+.about p {
+    margin-top: 1em;
+    line-height: 1.2em;
+}
+@media (min-width: 600px) {
+    .about p {
+        font-size: 1.5em;
+    }
+    .about h3 {
+    font-size: 2em;
+}
+}
+@media (min-width: 960px) {
+    .about p {
+        font-size: 2em;
+    }
+    .about h3 {
+    font-size: 2em;
+}
+}

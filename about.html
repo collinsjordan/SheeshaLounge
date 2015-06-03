@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sheesha Lounge - Not just hookah, an Experience!</title>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="css/navstyle.css" rel="stylesheet">
+        <link href="css/about.css" rel="stylesheet">
+        <meta content='width=device-width, initial-scale=1' name='viewport'>
+        <meta content='Come to Sheesha Lounge today for the BEST Hookah in San Diego!' name='description'>
+        <meta content='Sheesha Lounge Hookah Bar IPA San Diego El Cajon Shisha Starbuzz Al Fakher Al Rayan Bang Bang' name='keywords'>
+        
+<script type="text/javascript" src="fancybox/lib/jquery-1.9.0.min.js"></script>
+
+
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+      
+        <script>
+        $(document).ready(function () {
+            $('.fancybox').fancybox({
+                padding : 0,
+                openEffect  : 'elastic'
+            });
+        });
+    </script>
+        <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logowrap">
+                <img src="img/logo.png" class="logo" alt="Sheesha Lounge">
+            </div>
+            	<nav class="clearfix">
+		          <ul class="clearfix">
+			         <li><a href="#">Home</a></li>
+			         <li><a href="#">Our Menu</a></li>
+			         <li><a href="#">Reserve Seating</a></li>
+			         <li><a href="#">About Us</a></li>
+			         <li><a href="#">Contact Us</a></li>
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+        </div>
+        <div class="content">
+            <div class="about">
+            <h3>About Us,</h3>
+            <p>Sheesha Lounge Opened up in 20xx, in the Community of Rancho San Diego (El Cajon). We strive to create a Welcoming Atmosphere with pleasant Lighting, Calming water Features, and a Friendly staff who are ready to make your Hookah Experience the best!</p>
+             <p>Not just <span>Hookah</span>, an <span>Experience</span>.</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                <p class="copyright">Copyright &copy; Sheesha Lounge 2015 - All Rights Reserved</p>
+                <a href="https://twitter.com/MySheeshaLounge"><img src="img/twitter.png" class="social" alt="Twitter"></a>
+                <a href="https://twitter.com/MySheeshaLounge"><img src="img/facebook.png" class="social" alt="Facebook"></a>
+                <a href="http://instagram.com/mysheeshalounge?ref=badge"><img src="img/instagram.png" class="social" alt="Instagram"></a>
+            </div>
+        </div>
+    </body>
+</html>
