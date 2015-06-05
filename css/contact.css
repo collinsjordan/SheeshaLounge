@@ -1,0 +1,58 @@
+.contact {
+    color: #ffffff;
+    text-align: left;
+    font-family: Helvetica, Calibri;
+    font-size: 1em;
+    margin-top: 1em;
+    max-width: 90%;
+    margin: 5%;
+    background: #202020;
+    padding: 0.3125em;
+}
+/* unvisited link */
+.contact a:link {
+    color: #d4c355;
+}
+/* visited link */
+.contact a:visited {
+    color: #d4c355;
+}
+/* mouse over link */
+.contact a:hover {
+    color: #eedb5f;
+}
+/* selected link */
+.contact a:active {
+    color: #eedb5f;
+}
+.contact h3 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+}
+.contact span {
+    color: #d4c355;
+}
+.contact p {
+    margin-top: 1em;
+    line-height: 1.2em;
+}
+#loc {
+    margin-top: 1em;
+}
+@media (min-width: 600px) {
+    .contact p {
+        font-size: 1.5em;
+    }
+    .contact h3 {
+    font-size: 2em;
+}
+}
+@media (min-width: 960px) {
+    .contact p {
+        font-size: 2em;
+    }
+    .contact h3 {
+    font-size: 2em;
+}
+}
